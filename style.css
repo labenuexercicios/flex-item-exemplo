@@ -5,23 +5,33 @@ div {
     width: 700px;
     height: 400px;
     display: flex;
-    align-items: flex-start;    
+    align-items: flex-start;
 }
 
 .verde {
     background-color: #27e127;
     border-radius: 10px;
     border: 1px solid black;
+    order: 2;
+    flex-grow: 4;
 }
+
 .azul {
     background-color: #228efb;
     border-radius: 10px;
     border: 1px solid black;
+    order: 3;
+    flex-grow: 3;
+    align-self: stretch;
 }
+
 .vermelho {
     background-color: #f72020;
     border-radius: 10px;
     border: 1px solid black;
+    order: 1;
+    flex-grow: 2;
+    align-self: flex-end;
 }
 
 li {
